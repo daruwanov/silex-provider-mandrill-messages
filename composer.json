@@ -1,0 +1,24 @@
+{
+    "name": "daruwanov/silex-provider-mandrill-messages",
+    "keywords": ["mandrill","mandrillmessages","serviceprovider","silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Arushanov",
+            "email": "daruwanov@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "silex/silex": ">=1.0",
+        "mandrill/mandrill": "1.0.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.5"
+    },
+    "autoload":{
+        "psr-0":{
+            "Daruwanov\\Provider\\":"src"
+        }
+    }
+}
