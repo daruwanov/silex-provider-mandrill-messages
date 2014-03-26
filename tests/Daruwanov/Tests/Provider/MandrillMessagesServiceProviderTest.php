@@ -20,9 +20,9 @@ class MandrillMessagesServiceProviderTest extends \PHPUnit_Framework_TestCase
 
         $app = new Application();
         $app->register(new MandrillMessagesServiceProvider(), array(
-            "mandrill" => array('password'=>$password),
-
+            "mandrill" => array('password'=>$password)
         ));
+
         $m = $app['mandrill.messages'];
 
         $this->assertInstanceOf("\Mandrill_Messages", $m);
