@@ -23,7 +23,7 @@ class MandrillMessagesServiceProvider implements ServiceProviderInterface
                 $mandrillMessages = new  Mandrill_Messages($mandrill);
             }
             else {
-              throw new \Exception("Bas");
+              throw new \Exception("Error: Array key 'mandrill' does not exist or input data not Array");
             }
             return $mandrillMessages;
         });
