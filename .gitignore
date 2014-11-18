@@ -1,3 +1,4 @@
 vendor
 .idea
 silex-provider-mandrill-messages.iml
+composer.lock
